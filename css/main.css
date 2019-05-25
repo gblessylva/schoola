@@ -1,0 +1,170 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+  background: #eee;
+  min-height: 550px;
+  background-attachment: fixed;
+}
+.bg {
+  min-height: 540px;
+}
+.bg1 {
+  background: url(../image/bg.jpg);
+  background-position: center;
+}
+
+@font-face {
+  font-family: "typo";
+  src: url("../fonts/typo.ttf");
+}
+
+@font-face {
+  font-family: "gothic";
+  src: url("../fonts/gothics.ttf");
+}
+
+.panel {
+  border-color: #eee;
+  margin: 40px;
+  padding: 20px;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title {
+  font-family: "typo";
+}
+
+.header {
+  background: #202020;
+  height: 70px;
+}
+.logo {
+  font-family: "typo";
+  font-size: 35px;
+  color: orangered;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+
+.title1 {
+  font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.sub1 {
+  width: 90px;
+  color: white;
+  background: orangered;
+  font-size: 15px;
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  margin-right: 60px;
+}
+
+.sub {
+  width: 100%;
+  background-color: darkgreen;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.sub:hover {
+  background: green;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  border-top: 1px solid;
+  border-color: #323232;
+  background-color: #202020;
+}
+.footer a {
+  margin: 25px;
+  color: orange;
+  text-decoration: none;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #9acd32;
+  border-top: 2px solid;
+  border-color: orange;
+}
+#glass,
+.glass {
+  background: rgba(255, 255, 255, 0.4);
+}
+#glass {
+  color: white;
+  text-align: center;
+}
+.box {
+  padding: 9px;
+}
+hr {
+  color: #000000;
+}
+.top {
+  margin-top: 20px;
+}
+.log1 {
+  font: 15px "Ubuntu", sans-serif;
+  color: orange;
+  margin-left: 10px;
+}
+
+.log {
+  margin: 10px;
+  margin-right: 60px;
+  margin-left: 5px;
+  color: orange;
+  text-decoration: none;
+  font-size: 20px;
+  font-size: 15px;
+}
+.log:hover {
+  color: #9acd32;
+  border-top: 2px solid;
+  border-color: orange;
+  text-decoration: none;
+}
+.footer-widget {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.footer-widget a {
+  color: white;
+}
+li {
+  list-style: none;
+}
+.edit {
+  color: green;
+}
+.delete {
+  color: red;
+}
+
+#main-wrapper {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 10px;
+}
+.card {
+  background: blue;
+  color: white;
+  padding: 10px;
+}
